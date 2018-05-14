@@ -10,7 +10,7 @@ from PyQt5.uic import loadUi
 class CaptureDevice(QDialog):
     def __init__(self):
         super(CaptureDevice, self).__init__()
-        loadUi('ui-interfaces\\CaptureDevice.ui', self)
+        loadUi('CaptureDevice.ui', self)
 
         # Variaveis
         self.timer = QTimer(self)
